@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* メディアクエリ ウィンドウ幅が最大767pxまでの場合 */
+@media screen and (max-width: 767px) {
+  .header {
+    width: 300px;
+  }
+
+  .left {
+    width: 100px;
+  }
+
+  .right_top1_box1 {
+    width: 125px;
+  }
+
+  .right_top1_box2 {
+    width: 125px;
+  }
+
+  .right_top2 {
+    width: 75px;
+  }
+
+  .right_bottom {
+    width: 200px;
+  }
+
+  .footer {
+    width: 300px;
+  }
+
+  /* メディアクエリ ウィンドウ幅が最大479pxまでの場合 */
+  @media screen and (max-width: 479px) {
+
+    /* メインの横並び解除 */
+    .main {
+      display: block;
+    }
+
+    .header {
+      width: 150px;
+    }
+
+    .left {
+      width: 150px;
+    }
+
+    /* right_top横並び解除 */
+    .right_top {
+      display: block;
+    }
+
+    .right_top1_box1 {
+      width: 150px;
+    }
+
+    .right_top1_box2 {
+      width: 150px;
+    }
+
+    .right_top2 {
+      width: 150px;
+    }
+
+    .right_bottom {
+      width: 150px;
+    }
+
+    .footer {
+      width: 150px;
+    }
+  }
