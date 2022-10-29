@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* メディアクエリ ウィンドウ幅が最大479pxまでの場合 */
+@media screen and (max-width: 479px) {
+
+  .header {
+    width: 200px;
+    height: 200px;
+  }
+
+  .lists {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 160px;
+    position: fixed;
+    top: 20px;
+    left: 70px;
+  }
+
+  /* メインの横並び解除 */
+  .main {
+    display: block;
+  }
+
+  .left {
+    width: 200px;
+    height: 100px;
+  }
+
+  .right {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 0;
+  }
+
+  .right_1 {
+    margin: 20px 30px 5px 30px;
+  }
+
+  .right_2 {
+    margin: 5px 30px 5px 30px;
+  }
+
+  .right_3 {
+    margin: 5px 30px 20px 30px;
+  }
+
+  .footer {
+    margin-top: 200px;
+    width: 200px;
+  }
